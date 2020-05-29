@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Gerenciador de Produtos</title>
+	</head>
+	<body>
+		<h1>GERENCIADOR DE PRODUTOS 2000</h1>
+		<h2>Cadastre seu produto:</h2>
+		<form action="Cadastrar.do" method="POST">
+			<label>
+				Código: <input type="number" name="codigo" placeholder="Insira o código"><br><br>
+			</label>
+			<label>
+				Nome: <input type="text" name="nome" placeholder="Insira o nome"><br><br>
+			</label>
+			<label>
+				Descrição: <textarea name="descricao"></textarea><br><br>
+			</label>
+			<label>
+				Valor: R$<input type="text" name="valor" placeholder="Insira o valor em R$"><br><br>
+			</label>
+			<label>
+				Estoque: <input type="number" name="estoque" placeholder="Insira a quantidade em estoque"><br><br>
+			</label>
+			<input type="submit" value="Cadastrar">
+		</form>
+		<hr>
+		<h2>Deseja ver a lista de produtos cadastrados?</h2>
+		<a href="Listar.do">Clique aqui!</a>
+	</body>
+</html>
